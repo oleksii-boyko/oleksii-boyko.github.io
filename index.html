@@ -16,6 +16,9 @@
             font-size: larger;
             float: right;
         }
+        li p span{
+            vertical-align: middle;
+        }
     </style>
 </head>
 <body id = "back" style="background-image: url('back.jpg'); background-repeat: repeat;">
@@ -32,10 +35,13 @@
 <footer>
     <p>Here are my contacts:</p>
     <ul style="list-style-type: none">
-        <li><p><img src="phone.png" alt="phone" width="30px" height="30px"> +380666669999</p></li>
-        <li><p><img src="gmail.jpg" alt="gmail" width="30px" height="30px"> immacodder@gmail.com</p></li>
-        <li><p><img src="skype.png" alt="skype" width="30px" height="30px"> alex_boyko222</p></li>
-        <li><p><img src="lin.png" alt="linked" width="30px" height="30px">
+        <li><p><span><img src="phone.png" alt="phone" width="30px" height="30px"></span>
+            Call me <a href="tel:+380666669999">+380666669999</a></p></li>
+        <li><p><span><img src="gmail.jpg" alt="gmail" width="30px" height="30px"></span>
+            Gmail: <a href="mailto:immacodder@gmail.com">immacodder@gmail.com</a>
+        </p></li>
+        <li><p><span><img src="skype.png" alt="skype" width="30px" height="30px"></span> alex_boyko222</p></li>
+        <li><p><span><img src="lin.png" alt="linked" width="30px" height="30px"></span>
             <a href="https://www.linkedin.com/in/oleksii-boiko-a0a2a7135/" title="Proceed to my LinkedIn page" target="_blank"> LinkedIn</a>
         </p></li>
     </ul>
